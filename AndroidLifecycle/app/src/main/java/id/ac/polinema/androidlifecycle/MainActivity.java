@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 	@Override
 	protected void onPause() {
 		super.onPause();
-		Toast.makeText(this, "Application On Pauset", Toast.LENGTH_SHORT).show();
+		Toast.makeText(this, "Application On Pause", Toast.LENGTH_SHORT).show();
 	}
 	@Override
 	protected void onDestroy() {
